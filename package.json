@@ -1,0 +1,23 @@
+{
+  "name": "xstream-switch-last",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "xstream",
+    "switch"
+  ],
+  "dependencies": {
+    "typescript": "^2.7",
+    "xstream": "^11.2.0"
+  },
+  "peerDependencies": {
+    "xstream": "10.x || 11.x"
+  },
+  "author": "i@b123400.net",
+  "license": "MIT"
+}
